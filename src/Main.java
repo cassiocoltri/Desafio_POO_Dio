@@ -35,6 +35,8 @@ public class Main {
         dev2.inscreverBootCamp(bootCamp);
         System.out.println("Conteúdos Inscritos por " + dev2.getNome() + ": " + dev2.getConteudosInscritos());
         dev2.progredir();
+        dev2.progredir();
+        dev2.progredir();
         System.out.println("-");
         System.out.println("Conteúdos Inscritos por " + dev2.getNome() + ": " + dev2.getConteudosInscritos());
         System.out.println("Conteúdos Concluidos por " + dev2.getNome() +": " + dev2.getConteudosConcluidos());

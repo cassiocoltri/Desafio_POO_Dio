@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class Mentoria extends Conteudo{
 
-    private LocalDate data;
+    private LocalDate data = LocalDate.now();
 
     public Mentoria(String titulo, String descricao, LocalDate data) {
         super(titulo, descricao);
@@ -35,7 +35,7 @@ public class Mentoria extends Conteudo{
         return "Curso{" +
                 "titulo='" + getTitulo() + '\'' +
                 ", descricao='" + getDescricao() + '\'' +
-                ", cargaHoraria=" + data +
+                ", data=" + data +
                 '}';
     }
 }
